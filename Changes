@@ -1,0 +1,7 @@
+--Pls Subscribe :D
+
+local args = {
+    [1] = Amount
+}
+
+game:GetService("ReplicatedStorage").Game.RemoteEvents.GiveStrength:FireServer(unpack(args))
